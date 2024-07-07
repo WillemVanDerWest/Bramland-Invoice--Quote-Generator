@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+body{
+  width:990px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.LeftRightSplit{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.LeftRotate{
+  transform: rotate(-90deg);
+  margin: 0px 0px 0px -50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Colour-Red{
+  color: red;
+}
+
+.Margin-Top{
+  margin-top: 100px;
+}
+
+.Margin-Left{
+  margin-left: 180px;
+}
+
+.Flex{
+  display: flex;
+}
+
+.padding{
+  padding: 0px 100px 0px 0px;
+}
+
+.WidthHeight{
+  width: 250px;
+  height: 100px;
+}
+
+.Line01-Margin{
+  margin: 30px 150px 0px;
+}
+
+.line02-Margin{
+  margin: 100px 150px 0px;
+}
+.Line{
+  
+  background-color: #282c34;
+  height: 1.5px;
+  width: 750px;
+}
+
+.LeftFont{
+  font-size: 30px;
+}
+
+.Description{
+  margin: 0px 0px 0px 180px;
+}
+
+.LeftMargin180{
+  margin-left: 180px;
+}
+.Description-Heading{
+  color: #964805;
+  font-weight: 600;
+}
+
+.Brown-Color{
+  color: #964805;
+}
+.Totaal{
+  text-align: right;
+  margin-right: 80px;
+}
+
+.Right-Margin80{
+  margin-right:80px;
+}
+
+.Align-Right{
+  text-align: right;
+}
+
+.No-Bullets{
+  list-style: none;
+  list-style-type: none;
+  padding:0;
+  
+}
+
+.Space-Between{
+  justify-content: space-between;
+}
+
+.Cell-Email-Box{
+  
+  
+}
+
+.Each-Box{
+ 
+}
+
+.Input-Fields{
+  width: 80%;
+  border-style: solid;
+  border-color: transparent;
+  
+  
+}
+
+.Height{
+  height: 20px;
+  font-size: large;
+  padding-bottom: 10px;
+}
+
+.Inputs{
+  margin-left: 200px;
+}
+
+.NotFlex{
+  display: block;
+}
+
+.Input-Pos{
+  position: absolute;
+  top: 676px;
+  left: 950px;
+  
+}
+
+.Count-Pos{
+  
+  position: absolute;
+  top: 600px;
+  left: 800px;
+}
+
+.Download{
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+.Test{
+ text-align: left;
+  
+}
+
+.Padding-Input{
+  padding-bottom: 9px;
+}
+
+.Div-Border{
+  border-style: solid;
+  border-left-style: none;
+  border-right-style:none;
+  border-top-style: none;
+  border-width: 1px;
 }
