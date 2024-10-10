@@ -2,11 +2,9 @@ import { usePDF } from 'react-to-pdf';
 import React from 'react';
 import { useState } from 'react';
 import '../src/App.css'
-
 import { RunMe}from './Firebase.js'
 import { doc, getDoc, getFirestore, getDocs, collection } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
-
 import LogAllData from './Compononts/entries.js';
 
 
@@ -27,6 +25,7 @@ function App() {
             line04 : 'Centurion',
             line05 : 'mullerheyneke@gmail.com',
           },
+          
           date: '0000-00-00',
           bank: 'Privaat',
           subtotaal: '0',
